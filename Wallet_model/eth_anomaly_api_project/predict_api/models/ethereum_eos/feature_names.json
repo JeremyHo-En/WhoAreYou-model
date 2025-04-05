@@ -1,0 +1,1 @@
+["avg_value", "max_value", "median_gas_price", "unique_receivers", "unique_senders", "tx_per_day", "in_tx_count", "out_tx_count", "in_out_ratio", "self_tx_ratio", "max_tx_in_1h", "max_tx_in_5min", "tx_time_std", "zero_value_tx_ratio", "high_value_tx_ratio", "short_time_repeated_tx"]

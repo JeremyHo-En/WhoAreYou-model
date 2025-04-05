@@ -8,13 +8,14 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import DBSCAN
 import os
 from pathlib import Path
-
+#%%
 BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path("/Users/jeremy/Desktop/eth_anomaly_api_project/train_api")
 DATA_DIR = BASE_DIR / "data"
-MODEL_DIR = BASE_DIR.parent / "predict_api" / "models"
+MODEL_DIR = BASE_DIR.parent / "predict_api" / "models" / "base"
 
 # 載入資料
-data_path = DATA_DIR / "wallet_features.csv"
+data_path = DATA_DIR / "Base_wallet_features.csv"
 # 載入資料
 data = pd.read_csv(data_path).dropna()
 
